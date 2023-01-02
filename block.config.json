@@ -1,0 +1,13 @@
+{
+  "name": "fn1",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/that-coder/fn1",
+    "ssh": "git@github.com:that-coder/fn1.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
