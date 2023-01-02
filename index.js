@@ -8,6 +8,8 @@ const fn1 = async (req, res) => {
     res.end()
   }
 
+  console.log("sample app creation")
+
   // Add your code here
   res.write(JSON.stringify({success: true, msg: `Hello fn1`}))
   res.end()
